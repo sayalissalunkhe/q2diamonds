@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
+
+html,
+body {
+    position: relative;
+    height: 100%;
+    font-family: 'Jura', sans-serif !important;
+}
+
+body {
+    background: #000;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-section {
+    position: fixed;
+    width: 100%;
+    z-index: 111;
+    background: #000;
+    font-size: 21px;
+    padding: 20px 0;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    color: #fff;
+    padding: 0 2rem;
+}
+
+.py-7 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.py-10 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+section.swiper-section {
+    z-index: 10;
+    position: relative;
+    background: #000;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide-content {
+    width: 70%;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide-prev .swiper-slide-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.swiper-wrapper {
+    align-items: center;
+}
+
+.swiper-slide-next .swiper-slide-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.swiper-slide-active .swiper-slide-content {
+    flex-direction: column-reverse;
+    display: flex;
+}
+
+.swiper-slide .swiper-slide-content p {
+    display: none;
+    color: #fff;
+}
+
+.swiper-slide-active .swiper-slide-content p {
+    display: block;
+}
+
+svg {
+    width: 200px;
+    fill: #fff;
+}
+
+.swiper-slide-active svg {
+    width: 400px;
+}
+
+.width-fit-content {
+    width: fit-content;
+    margin: auto;
+}
+
+.home-banner-section {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-logo svg {
+    width: 700px;
+}
+
+.slide-text h4 {
+    padding: 0 2rem;
+    font-size: 30px;
+    color: #fff;
+}
+
+a.round-btn {
+    background: pink;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    display: inline-block;
+}
